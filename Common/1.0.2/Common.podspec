@@ -10,11 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yudi40060/PodSpecsDemo.git", :tag => "1.0.2" }
   s.source_files  = "Common/**/*{h,m}"
 
-# s.exclude_files = "Common/*h"
-
-# s.public_header_files = "Common/aaa.h"
-
-
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   s.requires_arc = true
